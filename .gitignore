@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+saved_r_envir_and_output/
+*.Rproj
+*.DS_Store
