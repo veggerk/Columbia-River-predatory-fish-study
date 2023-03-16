@@ -1,4 +1,4 @@
-Identifier 1,date,month,day,tissue type,Identifier 2,salmonid,percent_n,percent_c,d15N,d13C
+Identifier 1,date,month,day,tissue type,Identifier.2,salmonid,percent_n,percent_c,d15N,d13C
 PRY_125_7/28_TSS_0_0FIN,5/4/00,5,4,fin,3 Spine Stickleback,non salmonid,7.3727935,28.4614848,12.505,-25.315
 PRY125_7/28_TSS_0_0FIN,7/28/12,7,28,fin,3 Spine Stickleback,non salmonid,11.4988725,44.3321871,12.746,-25.099
 PRY156_8/16_TSS_350_0FIN,8/16/12,8,16,fin,3 Spine Stickleback,non salmonid,11.8160049,44.3764161,19.477,-29.986

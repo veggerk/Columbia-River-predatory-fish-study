@@ -13,10 +13,10 @@ preds<-"predator_data.csv"
 
 
 ## raw file locations
-walleye_prey<- here("analysis_and_clean_data", walleye_prey)
-npm_prey<- here("analysis_and_clean_data", npm_prey)
-prey<- here("analysis_and_clean_data", prey)
-preds<- here("analysis_and_clean_data", preds)
+walleye_prey<- here("data/clean_data", walleye_prey)
+npm_prey<- here("data/clean_data", npm_prey)
+prey<- here("data/clean_data", prey)
+preds<- here("data/clean_data", preds)
 
 ## pull in files from sub directory
 walleye_prey <- read_csv(walleye_prey,
@@ -33,10 +33,16 @@ preds <- read_csv(preds,
 
 
 
+species_sum<-prey %>%
+  group_by(Identifier.2)%>%
+  summarize(counts = length(Identifier.2))
+
 colnames(preds)[which(names(preds) == "Identifier 2")] <- "predator"
-colnames(prey)[which(names(prey) == "Identifier 2")] <- "Sources"
+colnames(prey)[which(names(prey) == "Identifier.2")] <- "Sources"
 colnames(npm_prey)[which(names(npm_prey) == "Identifier 2")] <- "Sources"
 colnames(walleye_prey)[which(names(walleye_prey) == "Identifier 2")] <- "Sources"
+
+
 
 # summary of data collection -----------------------------------------------
 
