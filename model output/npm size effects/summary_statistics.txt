@@ -1,0 +1,21 @@
+
+#################################################################
+# Summary Statistics
+#################################################################
+
+DIC = 403.6309
+
+                                       Mean    SD  2.5%    5%   25%   50%   75%
+Epsilon.1                             1.256 0.299 0.787 0.842 1.049 1.215 1.425
+Epsilon.2                             2.383 0.620 1.271 1.446 1.958 2.344 2.755
+p.global.American shad                0.925 0.038 0.836 0.854 0.903 0.931 0.953
+p.global.mixed non-Salmonidae         0.012 0.019 0.000 0.000 0.000 0.003 0.015
+p.global.mixed subyearling Salmonidae 0.044 0.033 0.003 0.005 0.019 0.037 0.062
+p.global.mixed yearling Salmonidae    0.019 0.020 0.000 0.000 0.004 0.013 0.029
+                                        95% 97.5%
+Epsilon.1                             1.798 1.957
+Epsilon.2                             3.471 3.720
+p.global.American shad                0.977 0.983
+p.global.mixed non-Salmonidae         0.052 0.066
+p.global.mixed subyearling Salmonidae 0.105 0.124
+p.global.mixed yearling Salmonidae    0.059 0.071
