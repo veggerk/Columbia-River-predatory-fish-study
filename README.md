@@ -18,7 +18,7 @@ This repository has the following structure:
  
 `\model output` folder with isospace plots for walleye and northern pikeminnow, and model output and diagnostics for each model. Each model has its own folder within the 'model output' folder.
 
-metadata describing the column names is provided in: 'metadata for spreadsheets.xlsx'
+metadata describing the column names is provided in: 'spreadsheet_info.xlsx'
 
 The MixSIAR user manual is: 'MixSIAR_user_manual.pdf'
 
