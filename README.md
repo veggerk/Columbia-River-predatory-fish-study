@@ -18,9 +18,9 @@ This repository has the following structure:
  
 `\model output` folder with isospace plots for walleye and northern pikeminnow, and model output and diagnostics for each model. Each model has its own folder within the 'model output' folder.
 
-metadata describing the column names is provided in: 'spreadsheet_info.xlsx'
+metadata describing the column names is provided in: `spreadsheet_info.xlsx`
 
-The MixSIAR user manual is: 'MixSIAR_user_manual.pdf'
+The MixSIAR user manual is: `MixSIAR_user_manual.pdf`
 
 
 
@@ -30,13 +30,13 @@ The plots I generated from model results were modified from the standard MisSIAR
 
 MixSIAR can use either averaged prey data, or raw prey data. It makes no difference to the model which you use, as the data is averaged by MixSIAR when it's imported into R anyway. I have both the raw and average prey data in the clean data folder. 
 
-It takes anywhere from a few hours to a few days to run a single model, depending on the model size and the computer you are using. I have included the.RData files for each model, this allows you to load the finished model into your R environment without having to wait hours or days to rerun the model.
+It takes anywhere from a few hours to a few days to run a single model, depending on the model size and the computer you are using. I have included the `.RData` files for each model, this allows you to load the finished model into your R environment without having to wait hours or days to rerun the model.
 
-The 'walleye_npm_MixSIAR.Rmd' file contains the mixing models for walleye and northern pikeminnow with no added effects. 
+The `walleye_npm_MixSIAR.Rmd` file contains the mixing models for walleye and northern pikeminnow with no added effects. 
 
-The 'walleye_npm_season_effect.Rmd' file contains the mixing models for walleye and northern pikeminnow with season/migration timing effect added. 
+The `walleye_npm_season_effect.Rmd` file contains the mixing models for walleye and northern pikeminnow with season/migration timing effect added. 
 
-The 'walleye_npm_size_effect.Rmd' file contains the mixing models for walleye and northern pikeminnow with a continuous size effect added. (note the walleye model failed to converge) 
+The `walleye_npm_size_effect.Rmd` file contains the mixing models for walleye and northern pikeminnow with a continuous size effect added. (note the walleye model failed to converge) 
 
-The 'walleye_size_effect_by_group.Rmd' file contains the mixing model for walleye with a fixed size effect added in lieu of a successful continuous size effect. 
+The `walleye_size_effect_by_group.Rmd` file contains the mixing model for walleye with a fixed size effect added in lieu of a successful continuous size effect. 
 
