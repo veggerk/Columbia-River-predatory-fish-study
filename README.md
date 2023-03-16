@@ -26,13 +26,11 @@ The MixSIAR user manual is: 'MixSIAR_user_manual.pdf'
 
 General notes: 
 
-The plots I generated from model results were modified from the standard MisSIAR output, which while nice generally isn't publication ready on it's own. Within the code for the output_JAGS function I modified the ggplot2 code to change how the model generated posterior density plots.
+The plots I generated from model results were modified from the standard MisSIAR output, which while nice generally isn't publication ready on it's own. Within the code for the output_JAGS function I modified the ggplot2 code to change how the model generated posterior density plots. This was done in each .rmd file.
 
 MixSIAR can use either averaged prey data, or raw prey data. It makes no difference to the model which you use, as the data is averaged by MixSIAR when it's imported into R anyway. I have both the raw and average prey data in the clean data folder. 
 
-It takes anywhere from a few hours to a few days to run a single model, depending on the model size and the computer you are using.  
-
-The markdown files in the 'R' folder contain the models for both walleye and northern pikeminnow. I separated the models with different effects into different markdown docs to make things more organized. 
+It takes anywhere from a few hours to a few days to run a single model, depending on the model size and the computer you are using. I have included the.RData files for each model, this allows you to load the finished model into your R environment without having to wait hours or days to rerun the model.
 
 The 'walleye_npm_MixSIAR.Rmd' file contains the mixing models for walleye and northern pikeminnow with no added effects. 
 
