@@ -1,5 +1,5 @@
 # Karl Veggerby
-# SMEA 586
+# figure 1 script for columbia river predatory fish study
 # spring 2023
 
 # takes about 30 seconds to run entire script
