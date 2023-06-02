@@ -8,7 +8,7 @@ This repository has the following structure:
 
 `\R` folder containing R code
 
-`\R\map-making-and-figure-merging-for-walleye` folder containing R code and files for making figure 1, and merging individual MixSIAR output plots into multiplots for other figures.
+`\R\figure-merging` folder containing R code and files for making figure 3
 
 `\data\raw data` folder with raw data files
 
@@ -34,9 +34,12 @@ It takes anywhere from a few hours to a few days to run a single model, dependin
 
 The `walleye_npm_MixSIAR.Rmd` file contains the mixing models for walleye and northern pikeminnow with no added effects. 
 
-The `walleye_npm_season_effect.Rmd` file contains the mixing models for walleye and northern pikeminnow with season/migration timing effect added. 
 
 The `walleye_npm_size_effect.Rmd` file contains the mixing models for walleye and northern pikeminnow with a continuous size effect added. (note the walleye model failed to converge) 
 
 The `walleye_size_effect_by_group.Rmd` file contains the mixing model for walleye with a fixed size effect added in lieu of a successful continuous size effect. 
+
+
+Due to the file sizes of the data for figure 1, it is not possible to provide the geopackage and shapefiles 
+used to generate the figure. The script used to make figure 1 is provided. 
 
